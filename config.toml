@@ -1,0 +1,26 @@
+baseURL = "https://dkmjp.github.io/"
+languageCode = "ja-JP"
+title = "株式会社○○○ホームページ"
+theme = "ananke"
+publishDir = "../website"
+
+[params]
+featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+
+[menu]
+  [[menu.main]]
+    name = "[会社紹介]"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    name = "[お問い合わせ]"
+    url = "/contact/"
+    weight = 20
+  [[menu.main]]
+    name = "[商品・サービス]"
+    url = "/products/"
+    weight = 30
+  [[menu.main]]
+    name = "[プライバシーポリシー]"
+    url = "/privacy/"
+    weight = 40
