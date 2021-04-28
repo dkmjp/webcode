@@ -4,6 +4,11 @@ title = "株式会社○○○ホームページ"
 theme = "ananke"
 publishDir = "../website"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 featured_image = "/images/gohugo-default-sample-hero-image.jpg"
 
